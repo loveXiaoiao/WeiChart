@@ -37,8 +37,8 @@ public class FragmentIndicator extends LinearLayout implements OnClickListener {
 	private static final String TAG_TEXT_2 = "text_tag_2";
 	private static final String TAG_TEXT_3 = "text_tag_3";
 	
-	private static final int COLOR_UNSELECT = Color.argb(100, 0xff, 0xff, 0xff);
-	private static final int COLOR_SELECT = Color.GRAY;
+	private static final int COLOR_UNSELECT = Color.GRAY;
+	private static final int COLOR_SELECT = Color.GREEN;
 
 	private FragmentIndicator(Context context) {
 		super(context);

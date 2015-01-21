@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"/>
          <TextView 
             android:layout_toRightOf="@+id/mitemImage"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:text="mTextView"
             android:textColor="#000000"
             android:id="@+id/mitemText"

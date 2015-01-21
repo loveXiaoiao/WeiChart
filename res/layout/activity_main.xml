@@ -35,7 +35,8 @@
     
     <com.gongming.weichart.fragment.FragmentIndicator
         android:id="@+id/indicator"
-        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
     
 

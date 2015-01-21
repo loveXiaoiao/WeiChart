@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6d6d6"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="15dp"
+        android:background="#222222" >
+
+        <ImageView
+            android:id="@+id/mpimage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_menu_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/mpimage1"
+            android:text="个人信息"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff" >
+
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        <ImageView 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog"/>
+        
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff" >
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:text="白河静流"
+            android:textColor="#a6a6a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            />
+        </RelativeLayout>
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff" >
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信号"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:text="iverson1245"
+            android:textColor="#a6a6a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            />
+        </RelativeLayout>
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="#ffffff" >
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码名片"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        
+        <ImageView 
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/qrcode"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"  
+		    android:layout_marginRight="15dp"/>
+         
+        </RelativeLayout>
+        
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff" >
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:text="男"
+            android:textColor="#a6a6a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            />
+        </RelativeLayout>
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff" >
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地区"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:text="湖北 宜昌"
+            android:textColor="#a6a6a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff" >
+        <TextView 
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个性签名"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"/>
+        
+        <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:text="东热西船，吾皇威武"
+            android:textColor="#a6a6a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            />
+        </RelativeLayout>
+
+</LinearLayout>
