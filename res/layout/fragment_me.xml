@@ -45,7 +45,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="80dp" 
+        android:layout_height="70dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 
@@ -87,7 +87,8 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="48dp" 
+        android:layout_height="40dp" 
+        android:layout_marginBottom="1dp"
         >
         <ImageView 
             android:layout_alignParentLeft="true"
@@ -110,7 +111,7 @@
     </RelativeLayout>
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="48dp" 
+        android:layout_height="40dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 
@@ -120,7 +121,8 @@
             android:layout_marginLeft="20dp"
             android:id="@+id/image41"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            />
         
         <TextView 
             android:layout_toRightOf="@+id/image41"
@@ -135,7 +137,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="48dp" 
+        android:layout_height="40dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 
@@ -160,7 +162,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="48dp" 
+        android:layout_height="40dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 

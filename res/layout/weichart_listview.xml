@@ -30,7 +30,7 @@
             android:layout_height="wrap_content" 
             android:textSize="12sp"
             android:text="wtiemText"
-            android:textColor="#000000"
+            android:textColor="#a6a6a6"
             android:id="@+id/witemText"/>
          
          <TextView 
@@ -40,6 +40,7 @@
             android:layout_marginTop="15dp"
             android:textSize="12sp"
             android:text="wtiemText2"
-            android:textColor="#000000"
+            android:textColor="#a6a6a6"
+            android:layout_marginRight="10dp"
             android:id="@+id/witemText2"/>
 </RelativeLayout> 
