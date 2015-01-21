@@ -22,9 +22,6 @@ public class MeFragment extends Fragment {
 	
 	private View mParent;
 	private FragmentActivity mActivity;
-	private ImageView imageView = null;
-	private TextView textView = null;
-	
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -38,8 +35,7 @@ public class MeFragment extends Fragment {
 		super.onActivityCreated(savedInstanceState);
 		mParent = getView();
 		mActivity = getActivity();
-		imageView = (ImageView)mActivity.findViewById(R.id.image21);
-		imageView.setOnClickListener(new OnClickListener() {
+		mActivity.findViewById(R.id.meRelative).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(mActivity, PersonInfoActivity.class);
@@ -48,8 +44,7 @@ public class MeFragment extends Fragment {
 			}
 		
 		});
-		textView = (TextView)mActivity.findViewById(R.id.meTextviewSet);
-		textView.setOnClickListener(new OnClickListener() {
+		mActivity.findViewById(R.id.meSetingTurn).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(mActivity, SettingActivity.class);
@@ -59,6 +54,8 @@ public class MeFragment extends Fragment {
 		
 		});
 	}
+	
+	
 	
 
 }

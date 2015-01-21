@@ -46,7 +46,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 
@@ -80,7 +80,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="1dp"
         >
         <ImageView 
@@ -104,7 +104,7 @@
     </RelativeLayout>
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 
@@ -130,7 +130,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="1dp"
         >
         <ImageView 
@@ -154,7 +154,7 @@
     </RelativeLayout>
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 
@@ -179,7 +179,7 @@
     
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="1dp"
         >
         <ImageView 
@@ -203,7 +203,7 @@
     </RelativeLayout>
     <RelativeLayout  android:layout_width="match_parent"
         android:background="#ffffff"
-        android:layout_height="40dp" 
+        android:layout_height="48dp" 
         android:layout_marginBottom="15dp"
         >
         <ImageView 

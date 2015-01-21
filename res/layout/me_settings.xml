@@ -32,7 +32,7 @@
     </RelativeLayout>
      <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -47,7 +47,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -62,7 +62,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -77,7 +77,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -92,7 +92,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -107,7 +107,7 @@
         </RelativeLayout>
          <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -134,7 +134,7 @@
         
          <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -149,7 +149,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="15dp"
         android:background="#ffffff" >
         <TextView 
@@ -164,7 +164,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 
@@ -179,7 +179,7 @@
         </RelativeLayout>
         <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="1dp"
         android:background="#ffffff" >
         <TextView 

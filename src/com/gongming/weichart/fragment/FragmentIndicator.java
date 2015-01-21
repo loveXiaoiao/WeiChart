@@ -48,18 +48,19 @@ public class FragmentIndicator extends LinearLayout implements OnClickListener {
 		super(context, attrs);
 
 		mCurIndicator = mDefaultIndicator;
-		setOrientation(LinearLayout.HORIZONTAL);
+		setOrientation(LinearLayout.VERTICAL);
 		init();
 	}
 
 	private View createIndicator(int iconResID, int stringResID, int stringColor, 
 			String iconTag, String textTag) {
+		
 		LinearLayout view = new LinearLayout(getContext());
 		view.setOrientation(LinearLayout.VERTICAL);
 		view.setLayoutParams(new LinearLayout.LayoutParams(
 				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, 1));
 		view.setGravity(Gravity.CENTER_HORIZONTAL);
-
+		view.setPadding(0, 10, 0, 10);
 		ImageView iconView = new ImageView(getContext());
 		iconView.setTag(iconTag);
 		iconView.setLayoutParams(new LinearLayout.LayoutParams(
@@ -82,32 +83,47 @@ public class FragmentIndicator extends LinearLayout implements OnClickListener {
 	}
 
 	private void init() {
+		
+		View line = new View(getContext());
+		LinearLayout.LayoutParams lineParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 1);
+		line.setBackgroundColor(Color.GRAY);
+		
+		addView(line, lineParams);
+		
+		LinearLayout container = new LinearLayout(getContext());
+		container.setOrientation(HORIZONTAL);
+		
+		
 		mIndicators = new View[4];
 		mIndicators[0] = createIndicator(R.drawable.weixin,
 				R.string.tab_weixin, COLOR_SELECT, TAG_ICON_0, TAG_TEXT_0);
 		mIndicators[0].setBackgroundResource(R.drawable.weixin);
 		mIndicators[0].setTag(Integer.valueOf(0));
 		mIndicators[0].setOnClickListener(this);
-		addView(mIndicators[0]);
+		container.addView(mIndicators[0]);
 		mIndicators[1] = createIndicator(R.drawable.maillist,
 				R.string.tab_maillist, COLOR_UNSELECT, TAG_ICON_1, TAG_TEXT_1);
 		mIndicators[1].setBackgroundColor(Color.alpha(0));
 		mIndicators[1].setTag(Integer.valueOf(1));
 		mIndicators[1].setOnClickListener(this);
-		addView(mIndicators[1]);
+		container.addView(mIndicators[1]);
 		mIndicators[2] = createIndicator(R.drawable.find,
 				R.string.tab_found, COLOR_UNSELECT, TAG_ICON_2, TAG_TEXT_2);
 		mIndicators[2].setBackgroundColor(Color.alpha(0));
 		mIndicators[2].setTag(Integer.valueOf(2));
 		mIndicators[2].setOnClickListener(this);
-		addView(mIndicators[2]);
+		container.addView(mIndicators[2]);
 		
 		mIndicators[3] = createIndicator(R.drawable.me,
 				R.string.tab_me, COLOR_UNSELECT, TAG_ICON_3, TAG_TEXT_3);
 		mIndicators[3].setBackgroundColor(Color.alpha(0));
 		mIndicators[3].setTag(Integer.valueOf(3));
 		mIndicators[3].setOnClickListener(this);
-		addView(mIndicators[3]);
+		container.addView(mIndicators[3]);
+		
+		LinearLayout.LayoutParams containerParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+		
+		addView(container, containerParams);
 	}
 
 	public static void setIndicator(int which) {
