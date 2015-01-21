@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout     
+         android:layout_width="fill_parent"     
+         xmlns:android="http://schemas.android.com/apk/res/android"     
+         android:layout_height="wrap_content"  
+         android:id="@+id/WeichartListItem"   
+         android:paddingBottom="4dip"     
+         android:paddingLeft="12dip">    
+        <ImageView 
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_launcher"
+            android:layout_centerVertical="true"
+            android:id="@+id/witemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+         <TextView 
+            android:layout_toRightOf="@+id/witemImage"
+            android:textSize="18sp"
+            android:text="mTextView"
+            android:textColor="#000000"
+            android:id="@+id/witemTitle"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+         
+         <TextView 
+            android:layout_toRightOf="@+id/witemImage"
+            android:layout_below="@+id/witemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="12sp"
+            android:text="wtiemText"
+            android:textColor="#000000"
+            android:id="@+id/witemText"/>
+         
+         <TextView 
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:text="wtiemText2"
+            android:textColor="#000000"
+            android:id="@+id/witemText2"/>
+</RelativeLayout> 
